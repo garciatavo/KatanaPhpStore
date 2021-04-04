@@ -1,0 +1,10 @@
+{
+    "author": "Gustavo Garcia",
+    "description": "Katana webStore",
+    "private": true,
+    "dependencies": {
+        "bower": "^1.8.12",
+        "gulp": "^3.9.1",
+        "laravel-elixir": "6.0.0-18"
+    }
+}
