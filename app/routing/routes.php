@@ -2,20 +2,13 @@
 
 $router = new AltoRouter;
 
-$router->map('GET', '/', '', 'home');
+$router->map('GET', '/', 'App\Controllers\IndexController@show', 'home');
 
-$match = $router->match();
+$match = $router -> match();
 
 if($match){
-    
-    require_once __DIR__.'/../controllers/BaseController.php';
-    require_once __DIR__.'/../controllers/IndexController.php';
-
-    $index = new \App\Controllers\IndexController();
-    $index -> show();
-
-} else {
+    var_dump($match);
+}else{
     header($_SERVER['SERVER_PROTOCOL']. '404 Not Found');
-
-    echo "Page not Found :(";
+    echo "Page almost Found";
 }
