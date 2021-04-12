@@ -11,4 +11,5 @@ return array(
     'a1105708a18b76903365ca1c4aa61b02' => $vendorDir . '/symfony/translation/Resources/functions.php',
     '72579e7bd17821bb1321b87411366eae' => $vendorDir . '/illuminate/support/helpers.php',
     '320cde22f66dd4f5d3fd621d3e88b98f' => $vendorDir . '/symfony/polyfill-ctype/bootstrap.php',
+    '413bbae6c7eb79f337cf0116feb07195' => $baseDir . '/app/functions/helper.php',
 );

@@ -29,4 +29,5 @@ return array(
     'Doctrine\\Inflector\\' => array($vendorDir . '/doctrine/inflector/lib/Doctrine/Inflector'),
     'Doctrine\\Common\\Inflector\\' => array($vendorDir . '/doctrine/inflector/lib/Doctrine/Common/Inflector'),
     'Carbon\\' => array($vendorDir . '/nesbot/carbon/src/Carbon'),
+    'App\\' => array($baseDir . '/app'),
 );
