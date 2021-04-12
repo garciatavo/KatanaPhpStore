@@ -2,7 +2,6 @@
 
 namespace App\controllers;
 
-class BaseController 
+class BaseController
 {
-    
 }
