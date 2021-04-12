@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'AltoRouter' => $vendorDir . '/altorouter/altorouter/AltoRouter.php',
+    'App\\RouteDispatcher' => $baseDir . '/app/routing/RouteDispatcher.php',
     'App\\controllers\\BaseController' => $baseDir . '/app/controllers/BaseController.php',
     'App\\controllers\\IndexController' => $baseDir . '/app/controllers/IndexController.php',
     'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
@@ -83,7 +84,6 @@ return array(
     'Carbon\\Traits\\Units' => $vendorDir . '/nesbot/carbon/src/Carbon/Traits/Units.php',
     'Carbon\\Traits\\Week' => $vendorDir . '/nesbot/carbon/src/Carbon/Traits/Week.php',
     'Carbon\\Translator' => $vendorDir . '/nesbot/carbon/src/Carbon/Translator.php',
-    'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Doctrine\\Common\\Inflector\\Inflector' => $vendorDir . '/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php',
     'Doctrine\\Inflector\\CachedWordInflector' => $vendorDir . '/doctrine/inflector/lib/Doctrine/Inflector/CachedWordInflector.php',
     'Doctrine\\Inflector\\GenericLanguageInflectorFactory' => $vendorDir . '/doctrine/inflector/lib/Doctrine/Inflector/GenericLanguageInflectorFactory.php',
